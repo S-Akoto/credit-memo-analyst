@@ -18,7 +18,7 @@ def extract_packet_from_pdf(pdf_path: str | Path, policy_id: str = "sme_commerci
     if not raw_text:
         raise ValueError(f"No extractable text found in {pdf_path}")
 
-    client = genai.Client(api_key=api_key, http_options={"timeout": 45})
+    client = genai.Client(api_key=api_key)
     prompt = f"""
 Extract the borrower profile, facility request, multi-year financial statements, and qualitative context
 from the following commercial lending packet text into the exact BorrowerPacket JSON schema.
@@ -27,16 +27,25 @@ Use policy_id="{policy_id}" unless explicitly stated otherwise. Convert all doll
 DOCUMENT TEXT:
 {raw_text[:25000]}
 """
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            response_mime_type="application/json",
-            response_schema=BorrowerPacket,
-            temperature=0.0,
-        ),
-    )
-    return BorrowerPacket.model_validate_json(response.text)
+    for model_name in ("gemini-3.8-flash", "gemini-3.5-flash-lite"):
+        try:
+            cfg = types.GenerateContentConfig(
+                response_mime_type="application/json",
+                response_schema=BorrowerPacket,
+                temperature=0.0,
+            )
+            if "flash" in model_name and "lite" not in model_name:
+                cfg.thinking_config = types.ThinkingConfig(thinking_budget=0)
+            response = client.models.generate_content(
+                model=model_name,
+                contents=prompt,
+                config=cfg,
+            )
+            return BorrowerPacket.model_validate_json(response.text)
+        except Exception as exc:
+            print(f"[warn] {model_name} failed ({exc}); trying fallback...")
+
+    raise RuntimeError("All Gemini models failed during PDF extraction.")
 
 
 def main():

@@ -57,7 +57,7 @@ def generate_credit_memo(packet: BorrowerPacket, policy: dict, analysis: dict) -
     if not api_key:
         return _fallback_memo(packet, policy, analysis)
 
-    client = genai.Client(api_key=api_key, http_options={"timeout": 45})
+    client = genai.Client(api_key=api_key)
 
     prompt = f"""
 You are a Senior Commercial Credit Underwriter preparing a formal Credit Committee Memorandum.
@@ -78,7 +78,7 @@ QUALITATIVE CONTEXT:
 Draft an institutional-grade Credit Committee Memorandum following the required JSON schema.
 """
 
-    for model_name in ("gemini-2.5-flash", "gemini-2.0-flash"):
+    for model_name in ("gemini-3.8-flash", "gemini-3.5-flash-lite"):
         try:
             response = client.models.generate_content(
                 model=model_name,

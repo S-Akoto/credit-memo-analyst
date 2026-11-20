@@ -80,7 +80,7 @@ def build_charts_html(packet: BorrowerPacket, analysis: dict) -> tuple[str, str]
     fig_trend.add_bar(x=years, y=revs, name="Revenue ($)", marker_color="#2563eb")
     fig_trend.add_bar(x=years, y=ebitdas, name="EBITDA ($)", marker_color="#0d9488")
     fig_trend.update_layout(
-        title=f"{packet.borrower_name}: 3-Year Revenue & EBITDA Trajectory",
+        title=dict(text="3-Year Revenue & EBITDA Trajectory", font=dict(size=15)),
         barmode="group",
         template="plotly_white",
         height=320,
@@ -106,7 +106,7 @@ def build_charts_html(packet: BorrowerPacket, analysis: dict) -> tuple[str, str]
         )
     )
     fig_heat.update_layout(
-        title="Pro-Forma DSCR Stress Matrix (Revenue vs. COGS Shock)",
+        title=dict(text="Pro-Forma DSCR Stress Matrix (Rev vs. COGS)", font=dict(size=15)),
         template="plotly_white",
         height=320,
         margin=dict(l=15, r=15, t=45, b=20),
