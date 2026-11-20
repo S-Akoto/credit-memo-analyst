@@ -1,0 +1,94 @@
+{
+  "borrower_id": "BOR-2026-001",
+  "borrower_name": "Elm City Auto & Fleet Services LLC",
+  "policy_id": "sme_commercial",
+  "location": "New Haven, CT",
+  "industry": "Automotive Repair & Fleet Maintenance",
+  "years_in_business": 6,
+  "facility_request": {
+    "facility_type": "Equipment & Working Capital Term Loan",
+    "requested_amount": 175000,
+    "interest_rate_pct": 8.25,
+    "term_months": 60,
+    "collateral": "First-lien UCC-1 on diagnostic lifts/equipment ($140k appraised) + blanket business assets + personal guarantees",
+    "purpose": "Purchase two heavy-duty alignment racks, EV diagnostic suite, and fund fleet parts inventory"
+  },
+  "financials": [
+    {
+      "fiscal_year": 2024,
+      "revenue": 920000,
+      "cogs": 441600,
+      "operating_expenses": 345000,
+      "depreciation_amortization": 24000,
+      "interest_expense": 16500,
+      "taxes": 18000,
+      "cash_and_equivalents": 48000,
+      "accounts_receivable": 62000,
+      "inventory": 74000,
+      "total_current_assets": 184000,
+      "total_assets": 465000,
+      "accounts_payable": 58000,
+      "short_term_debt": 32000,
+      "total_current_liabilities": 124000,
+      "long_term_debt": 148000,
+      "total_liabilities": 272000,
+      "total_equity": 193000,
+      "existing_annual_principal_payments": 28000
+    },
+    {
+      "fiscal_year": 2025,
+      "revenue": 1085000,
+      "cogs": 509950,
+      "operating_expenses": 398000,
+      "depreciation_amortization": 27500,
+      "interest_expense": 15200,
+      "taxes": 24000,
+      "cash_and_equivalents": 54000,
+      "accounts_receivable": 78000,
+      "inventory": 89000,
+      "total_current_assets": 221000,
+      "total_assets": 518000,
+      "accounts_payable": 69000,
+      "short_term_debt": 30000,
+      "total_current_liabilities": 148000,
+      "long_term_debt": 120000,
+      "total_liabilities": 268000,
+      "total_equity": 250000,
+      "existing_annual_principal_payments": 30000
+    },
+    {
+      "fiscal_year": 2026,
+      "revenue": 1240000,
+      "cogs": 576600,
+      "operating_expenses": 442000,
+      "depreciation_amortization": 31000,
+      "interest_expense": 13800,
+      "taxes": 31000,
+      "cash_and_equivalents": 61000,
+      "accounts_receivable": 94000,
+      "inventory": 106000,
+      "total_current_assets": 261000,
+      "total_assets": 585000,
+      "accounts_payable": 82000,
+      "short_term_debt": 28000,
+      "total_current_liabilities": 182000,
+      "long_term_debt": 92000,
+      "total_liabilities": 274000,
+      "total_equity": 311000,
+      "existing_annual_principal_payments": 28000
+    }
+  ],
+  "qualitative_notes": {
+    "business_overview": "Independent 6-bay automotive and municipal/commercial fleet maintenance facility serving Greater New Haven.",
+    "strengths": [
+      "16.1% compound annual revenue growth driven by recurring municipal and delivery-van fleet contracts (42% of revenue).",
+      "Gross margins improved from 52.0% to 53.5% via direct parts-supplier volume rebates.",
+      "Existing term debt steadily amortized down over the past 3 years with zero late payments."
+    ],
+    "risks": [
+      "Accounts receivable days stretched from 24 days to 28 days due to 45-day net billing cycles on municipal fleet accounts.",
+      "Certified EV/diagnostic technician retention remains competitive across southern Connecticut."
+    ],
+    "management_experience": "Managing member has 18 years of ASE Master Technician and shop operations experience; clean personal credit (745 FICO)."
+  }
+}

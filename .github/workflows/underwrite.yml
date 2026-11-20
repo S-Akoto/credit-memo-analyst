@@ -1,0 +1,31 @@
+name: Credit Underwriting & Memo Pipeline
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  underwrite:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run Underwriting & Memo Pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: PYTHONPATH=. python src/pipeline.py
+      - name: Commit updated memos & dossier
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/ docs/
+          git diff --staged --quiet || git commit -m "chore: refresh credit memos and underwriting dossier"
+          git push

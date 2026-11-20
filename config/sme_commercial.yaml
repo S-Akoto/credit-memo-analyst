@@ -1,0 +1,14 @@
+policy_id: "sme_commercial"
+policy_name: "SME & Commercial Equipment/Working Capital Policy"
+currency: "USD"
+covenants:
+  min_dscr: 1.25
+  watch_dscr: 1.15
+  max_debt_to_ebitda: 3.50
+  min_current_ratio: 1.20
+  min_interest_coverage: 2.00
+  min_ebitda_margin_pct: 10.0
+stress_test:
+  revenue_shocks_pct: [0.0, -5.0, -10.0, -15.0, -20.0]
+  cogs_shocks_pct: [0.0, 2.5, 5.0, 7.5, 10.0]
+  rate_shock_bps: 200

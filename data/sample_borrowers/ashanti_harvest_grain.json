@@ -1,0 +1,94 @@
+{
+  "borrower_id": "BOR-2026-002",
+  "borrower_name": "Ashanti Harvest Grain Aggregators Ltd.",
+  "policy_id": "agri_supply_chain",
+  "location": "Techiman & Kumasi, Ghana",
+  "industry": "Maize & Soya Aggregation / Commercial Feed Supply",
+  "years_in_business": 5,
+  "facility_request": {
+    "facility_type": "Revolving Seasonal Commodity Working Capital Line",
+    "requested_amount": 120000,
+    "interest_rate_pct": 11.50,
+    "term_months": 36,
+    "collateral": "Warehouse receipts on graded white/yellow maize (1.35x coverage) + assignment of poultry off-taker receivables",
+    "purpose": "Direct harvest-gate procurement of 1,400 MT maize from smallholder farmer cooperatives to fulfill institutional off-take contracts"
+  },
+  "financials": [
+    {
+      "fiscal_year": 2024,
+      "revenue": 780000,
+      "cogs": 616200,
+      "operating_expenses": 82000,
+      "depreciation_amortization": 14000,
+      "interest_expense": 14500,
+      "taxes": 11000,
+      "cash_and_equivalents": 34000,
+      "accounts_receivable": 68000,
+      "inventory": 95000,
+      "total_current_assets": 197000,
+      "total_assets": 340000,
+      "accounts_payable": 52000,
+      "short_term_debt": 55000,
+      "total_current_liabilities": 142000,
+      "long_term_debt": 65000,
+      "total_liabilities": 207000,
+      "total_equity": 133000,
+      "existing_annual_principal_payments": 22000
+    },
+    {
+      "fiscal_year": 2025,
+      "revenue": 945000,
+      "cogs": 756000,
+      "operating_expenses": 94000,
+      "depreciation_amortization": 16500,
+      "interest_expense": 16800,
+      "taxes": 14500,
+      "cash_and_equivalents": 39000,
+      "accounts_receivable": 89000,
+      "inventory": 124000,
+      "total_current_assets": 252000,
+      "total_assets": 415000,
+      "accounts_payable": 64000,
+      "short_term_debt": 68000,
+      "total_current_liabilities": 186000,
+      "long_term_debt": 58000,
+      "total_liabilities": 244000,
+      "total_equity": 171000,
+      "existing_annual_principal_payments": 24000
+    },
+    {
+      "fiscal_year": 2026,
+      "revenue": 1120000,
+      "cogs": 907200,
+      "operating_expenses": 106000,
+      "depreciation_amortization": 18000,
+      "interest_expense": 18200,
+      "taxes": 16800,
+      "cash_and_equivalents": 42000,
+      "accounts_receivable": 115000,
+      "inventory": 158000,
+      "total_current_assets": 315000,
+      "total_assets": 495000,
+      "accounts_payable": 78000,
+      "short_term_debt": 85000,
+      "total_current_liabilities": 248000,
+      "long_term_debt": 52000,
+      "total_liabilities": 300000,
+      "total_equity": 195000,
+      "existing_annual_principal_payments": 25000
+    }
+  ],
+  "qualitative_notes": {
+    "business_overview": "Regional grain aggregator sourcing maize from 420+ smallholder farmers across Bono East and Ashanti regions for commercial poultry feed mills and food processors.",
+    "strengths": [
+      "Signed 12-month forward off-take agreements covering 70% of projected volume with two Tier-1 poultry producers.",
+      "Direct farm-gate procurement network reduces middleman leakage and ensures moisture-tested quality (<13%)."
+    ],
+    "risks": [
+      "Gross margin compressed 200 bps (from 21.0% to 19.0%) due to farm-gate price competition and transport fuel inflation.",
+      "Top two off-takers account for 58% of accounts receivable; delays in buyer settlement directly tighten working capital liquidity (Current Ratio at 1.27x vs 1.30x policy floor).",
+      "Post-harvest moisture and weevil spoilage risk if warehouse aeration protocols lapse."
+    ],
+    "management_experience": "Founder has 11 years in agricultural commodity finance and supplier settlement operations; audited local financial statements for FY24-FY26."
+  }
+}
