@@ -2,7 +2,7 @@
 **Borrower:** Charter Oak Companion & Home Care LLC (`BOR-2026-003`)  
 **Location / Industry:** Hartford, CT | Non-Medical Home Care & Elder Support Services  
 **Policy Profile:** SME & Commercial Equipment/Working Capital Policy  
-**Recommendation:** **APPROVE** | **Risk Rating:** 1 - Low Risk  
+**Recommendation:** **APPROVE** | **Risk Rating:** 2 - Satisfactory  
 
 ---
 
@@ -14,7 +14,7 @@
 - **Collateral:** First-lien UCC-1 on accounts receivable ($145,000 eligible A/R) + blanket business assets + personal guarantees.
 
 ## 2. Executive Recommendation
-We recommend the approval of a $150,000.00 revolving working capital line of credit for Charter Oak Companion & Home Care LLC to bridge payroll cycles ahead of state waiver and private-pay receipts. The company demonstrates strong financial performance with fiscal year 2026 revenue of $1,310,000.00 and an EBITDA of $214,900.00. The pro-forma DSCR stands at a healthy 2.39x, comfortably exceeding the policy threshold of >= 1.25x.
+Charter Oak Companion & Home Care LLC requests a $150,000.00 revolving working capital line of credit at 8.75% for 48 months to bridge bi-weekly payroll ahead of state waiver and private-pay reimbursements. The credit presents a strong risk profile with a pro-forma DSCR of 2.39x and pro-forma Debt/EBITDA of 1.07x, comfortably passing all policy covenant thresholds. All covenants, including a Current Ratio of 1.70x and Interest Coverage of 18.08x, are fully compliant, supporting an approval recommendation under a Satisfactory risk rating.
 
 ## 3. Policy Covenant Scorecard (FY2026 Pro-Forma)
 | Covenant Metric | Actual | Policy Threshold | Status |
@@ -33,24 +33,22 @@ We recommend the approval of a $150,000.00 revolving working capital line of cre
 | FY2026 | $1,310,000 | $214,900 (16.4%) | 1.70x | 0.38x | 5.62x |
 
 ### Financial Performance Commentary
-Charter Oak Companion & Home Care LLC has demonstrated robust multi-year growth, with revenue expanding from $840,000.00 in 2024 to $1,060,000.00 in 2025, and reaching $1,310,000.00 in 2026, driven by expanding CHCPE referrals and private-pay clients. Gross margins improved from 37.0% in 2024 to 39.0% in 2026, and EBITDA margins expanded from 12.83% ($107,800.00) to 16.4% ($214,900.00) over the same period due to operational efficiencies. Liquidity remains sound with the current ratio improving from 1.57 in 2024 to 1.7 in 2026, while total leverage remains modest, with debt-to-EBITDA declining from 0.77 to 0.38.
+The borrower has demonstrated robust multi-year trajectory, with revenue growing from $840,000.0 in 2024 to $1,060,000.0 in 2025 and $1,310,000.0 in 2026, driven by expanding Connecticut Home Care Program for Elders referrals and private-pay clients. Gross margins expanded from 37.0% in 2024 to 38.0% in 2025 and 39.0% in 2026, while EBITDA margins increased from 12.83% ($107,800.0) to 14.65% ($155,300.0) and peaked at 16.4% ($214,900.0) in 2026 due to automated electronic visit verification scheduling and overtime reduction. Liquidity remains sound with the current ratio strengthening from 1.57x in 2024 to 1.64x in 2025 and 1.70x in 2026. Leverage improved steadily, with total debt-to-EBITDA decreasing from 0.77x in 2024 to 0.53x in 2025 and 0.38x in 2026.
 
 ## 5. Debt Service & Sensitivity Stress Analysis
 - **Base Pro-Forma DSCR:** 2.39x
 - **Rate-Shocked DSCR (+200 bps):** 2.34x
 
-The facility introduces a new annual debt service of $44,579.71, resulting in a pro-forma total debt service of $77,579.71 against a pro-forma total debt of $231,000.00. This yields a pro-forma DSCR of 2.39x and a pro-forma debt-to-EBITDA of 1.07x. A rate shock of 200 bps results in a rate-shocked DSCR of 2.34x, proving exceptional structural resilience. Stress testing shows the borrower maintains adequate coverage under moderate economic downturns, though severe combined shocks of -15% revenue and +7.5% COGS drop the DSCR below the 1.0x threshold to 0.75x.
+Historical DSCR strengthened from 3.41x in 2024 to 4.45x in 2025 and 5.62x in 2026. The new annual debt service of $44,579.71 brings the pro-forma total debt to $231,000.0 and pro-forma total debt service to $77,579.71, resulting in a healthy pro-forma DSCR of 2.39x. A 200 bps rate shock results in a rate-shocked DSCR of 2.34x, demonstrating strong resilience. Stress testing indicates that the borrower maintains a DSCR above the 1.25x policy threshold under moderate shocks, while sub-1.00x DSCR scenarios are strictly confined to severe combined revenue declines of 15% to 20% and cost escalations.
 
 ## 6. Key Credit Risks & Structural Mitigants
-- **Risk:** Accounts receivable days increased slightly from 42.6 days in 2024 to 43.5 days in 2026 due to state Medicaid waiver reimbursement batching cycles.
-  - **Mitigant:** The facility is secured by a first-lien UCC-1 on accounts receivable ($145,000 eligible A/R) and blanket business assets, providing robust asset coverage for the working capital line.
+- **Risk:** Accounts receivable days increased from 42.6 days in 2024 to 43.5 days in 2026 due to state Medicaid waiver reimbursement batching cycles.
+  - **Mitigant:** First-lien UCC-1 filing on $145,000.0 eligible accounts receivable with regular aging monitoring and a conservative advance rate.
 - **Risk:** Direct care workforce turnover requires continuous recruiting and onboarding spend.
-  - **Mitigant:** Management maintains strong operational controls with 14 years of combined healthcare administration experience, and historical EBITDA margins remain exceptionally strong at 16.4%.
+  - **Mitigant:** Robust historical EBITDA generation ($214,900.0 in 2026) and seasoned management with 14 years of combined healthcare administration and financial operations experience.
 
 ## 7. Conditions Precedent & Ongoing Covenants
-1. Execution and delivery of definitive loan documentation including a first-lien UCC-1 filing on accounts receivable and blanket business assets.
-1. Receipt of personal guarantees from the managing principals.
-1. Ongoing maintenance of Pro-Forma DSCR >= 1.25x.
-1. Ongoing maintenance of Current Ratio >= 1.20x.
-1. Ongoing maintenance of Interest Coverage (EBIT/Int) >= 2.00x.
-1. Ongoing maintenance of EBITDA Margin (%) >= 10.0%.
+1. Execution of standard loan documentation including a 48-month revolving line of credit agreement at 8.75% interest.
+1. Perfected first-priority UCC-1 lien filing covering all accounts receivable ($145,000.0 eligible A/R) and blanket business assets.
+1. Receipt of unconditional personal guarantees from all managing principals.
+1. Ongoing compliance with a minimum Pro-Forma DSCR of >= 1.25x, maximum Pro-Forma Debt/EBITDA of <= 3.50x, minimum Current Ratio of >= 1.20x, minimum Interest Coverage of >= 2.00x, and minimum EBITDA Margin of >= 10.0%.
